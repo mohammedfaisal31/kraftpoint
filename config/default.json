@@ -1,0 +1,46 @@
+{
+    "shop" : {
+        "currency": "INR",
+        "language": "cn",
+        "weightUnit": "kg"
+    },   
+    "catalog": {
+        "product": {
+            "image": {
+                "thumbnail": {
+                    "width": 100,
+                    "height": 100
+                },
+                "listing": {
+                    "width": 300,
+                    "height": 300
+                },
+                "single": {
+                    "width": 500,
+                    "height": 500
+                }
+            }
+            
+        },
+        "showOutOfStockProduct": true
+    },
+    "system":{
+        "extensions":[
+            {
+                "name": "product_review",
+                "resolve": "node_modules/@evershop/product_review",
+                "enabled": true,
+                "priority": 10
+            },
+            {
+                "name": "instamojo",
+                "resolve": "extensions/instamojo",
+                "enabled": true
+            }
+        ],
+        "instamojo":{
+            "status":1
+        },
+        "theme": "evershop"
+    }
+}

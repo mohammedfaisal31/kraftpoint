@@ -1,0 +1,48 @@
+.main-banner-home {
+    background-image: url("./banner.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 490px;
+    position: relative;
+    
+    .container {
+      z-index: 10;
+    }
+    .button {
+      margin-top: 27px;
+      border: 1px solid black; // Initial border color
+      color: black; // Initial text color
+      transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease; // Smooth transition for background, text color, and border color
+    
+      &:hover {
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0); // Transparent background
+        color: white; // Change text color to white
+        border-color: white; // Change border color to white
+      }
+    }
+    
+    h2.h1 {
+      color: var(--primary);
+      letter-spacing: 0;
+      font-size: 3.2rem;
+      line-height: 4.2rem;
+      @media screen and (min-width: 768px) {
+        font-size: 5.5rem;
+        line-height: 6.5rem;
+      }
+    }
+  }
+  
+  #app {
+    .header {
+      margin-bottom: 0;
+    }
+    .button {
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+    }
+  }

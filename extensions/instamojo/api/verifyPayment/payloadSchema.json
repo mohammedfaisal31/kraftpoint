@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "instamojo_order_id": {
+      "type": "string"
+    },
+    "instamojo_payment_id": {
+      "type": "string"
+    },
+    "instamojo_signature": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "instamojo_order_id",
+    "instamojo_payment_id",
+    "instamojo_signature"
+  ],
+  "additionalProperties": true,
+  "errorMessage": {
+    "properties": {
+      "instamojo_order_id": "instamojo_order_id is invalid",
+      "instamojo_payment_id": "instamojo_payment_id is invalid",
+      "instamojo_signature": "instamojo_signature is invalid"
+    }
+  }
+}

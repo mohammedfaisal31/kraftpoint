@@ -1,0 +1,8 @@
+extend type Setting {
+  instamojoPaymentStatus: Int
+  instamojoDisplayName: String
+  instamojoPublishableKey: String
+  instamojoSecretKey: String
+  instamojoEndpointSecret: String
+  instamojoPaymentUrl: String
+}

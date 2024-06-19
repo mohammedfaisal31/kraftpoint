@@ -1,0 +1,27 @@
+{
+  "name": "kraft-ever",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "evershop install",
+    "build": "evershop build",
+    "start": "evershop start",
+    "start:debug": "evershop start --debug",
+    "dev": "evershop dev",
+    "user:create": "evershop user:create",
+    "user:changePassword": "evershop user:changePassword"
+  },
+  "author": "",
+  "workspaces": [
+    "extensions/*"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@evershop/evershop": "^1.1.0",
+    "@evershop/product_review": "^1.1.0",
+    "axios": "^1.7.2",
+    "evershop-razorpay": "^1.0.5",
+    "instamojo-nodejs": "^0.0.5"
+  }
+}

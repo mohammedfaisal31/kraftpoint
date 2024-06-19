@@ -1,0 +1,28 @@
+.main-menu {
+    .nav {
+      display: flex;
+      justify-content: center;
+      flex-grow: 1;
+  
+      & > div {
+        display: flex;
+      }
+  
+      .nav-item {
+        margin: 0 10px;
+      }
+  
+      .flex.space-x-275 {
+        margin-left: auto;
+      }
+  
+      .justify-center {
+        justify-content: center;
+      }
+  
+      .justify-end {
+        justify-content: flex-end;
+      }
+    }
+  }
+  
