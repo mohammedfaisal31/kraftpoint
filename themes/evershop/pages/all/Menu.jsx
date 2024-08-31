@@ -5,9 +5,7 @@ import './Menu.scss';
 export default function Menu() {
   const items = [
     { name: 'Acrylic', url: '/acrylic' },
-    { name: 'Glass', url: '/glass' },
-    { name: 'Contact Us', url: '/contact' },
-    { name: 'About Us', url: '/about' }
+    { name: 'Glass', url: '/glass' }
   ];
 
   return (
